@@ -9,6 +9,20 @@ package ch.heigvd.res.lab00;
  *
  * @author Domingues
  */
-public class Flute extends IInstrument{
-   
+public class Flute implements IInstrument{
+
+   @Override
+   public int getSoundVolume() {
+     return 1; 
+   }
+
+   @Override
+   public String getColor() {
+      return null;
+   }
+
+   @Override
+   public String play() {
+      return null;
+   }  
 }

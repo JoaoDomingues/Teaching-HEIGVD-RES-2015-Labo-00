@@ -9,8 +9,8 @@ package ch.heigvd.res.lab00;
  *
  * @author Domingues
  */
-public class IInstrument {
-   public int getSoundVolume(){return 1;}
-   public String getColor(){return null;}
-   public String play(){return null;}
+public interface IInstrument {
+   public int getSoundVolume();
+   public String getColor();
+   public String play();
 }
