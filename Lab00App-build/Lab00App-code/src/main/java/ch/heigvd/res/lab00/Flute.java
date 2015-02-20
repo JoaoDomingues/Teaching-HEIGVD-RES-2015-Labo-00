@@ -13,16 +13,16 @@ public class Flute implements IInstrument{
 
    @Override
    public int getSoundVolume() {
-     return 1; 
+     return 50; 
    }
 
    @Override
    public String getColor() {
-      return null;
+      return "white";
    }
 
    @Override
    public String play() {
-      return null;
+      return "fu";
    }  
 }

@@ -13,16 +13,16 @@ public class Trumpet implements IInstrument{
      
    @Override
    public int getSoundVolume() {
-     return 1; 
+     return 100; 
    }
 
    @Override
    public String getColor() {
-      return null;
+      return "golden";
    }
 
    @Override
    public String play() {
-      return null;
+      return "pouet";
    }
 }
